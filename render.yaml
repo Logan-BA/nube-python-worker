@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: mqtt-python-worker
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
